@@ -20,7 +20,7 @@ function HowTheyMet() {
   }, [name]);
 
   return (
-    <Typography variant="h5" component="h5">
+    <Typography variant="h5" component="h5" className="How-They-Met">
       {data}
     </Typography>
   );
