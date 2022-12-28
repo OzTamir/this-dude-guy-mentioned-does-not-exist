@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { Typography } from '@mui/material';
+import HowTheyMet from './HowTheyMet';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           They do not exist.
         </Typography>
         <img src="https://thispersondoesnotexist.com/image" className="App-logo" alt="logo" />
+        <HowTheyMet />
       </header>
     </div>
   );
